@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        "lexend-deca": ["Lexend Deca", "sans-serif"],
+        "inter": ["Inter", "sans-serif"],
+      },
+    colors: {
+      "very_dark_blue": "hsl(233, 47%, 7%)",
+      "dark_desaturated_blue": "hsl(244, 38%, 16%)",
+      "soft_violet": "hsl(277, 64%, 61%)"
+    }
     },
   },
   plugins: [],
