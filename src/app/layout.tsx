@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${lexend_deca.variable}`}>
+      <body className={inter.className}>
         <main className="flex flex-col mx-auto justify-center items-center min-h-screen bg-very_dark_blue">
           {children}
         </main>
